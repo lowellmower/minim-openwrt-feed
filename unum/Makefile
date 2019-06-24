@@ -20,7 +20,8 @@ PKG_LICENSE:=Apache-2.0
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=v2019.2.0
-PKG_SOURCE_URL:=https://github.com/MinimSecure/unum-sdk
+PKG_SOURCE_URL:=https://github.com/lowellmower/unum-sdk/tree/test-build-fork
+# PKG_SOURCE_URL:=https://github.com/MinimSecure/unum-sdk
 PKG_SOURCE_SUBDIR:=unum-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_SOURCE_VERSION).tar.gz
 PKG_MAINTAINER:=Minim Labs <labs@minim.co>
